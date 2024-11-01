@@ -12,8 +12,6 @@ ul.addEventListener('click', (event) => {
         section.style.color = `${textColor}`;
         section.textContent = text;
         section.dataset.color = color;
-
-        alert(`You clicked on ${event.target.textContent}`)
     }
 })
 
