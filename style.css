@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Steppe-Book';
+    src: url("Montserrat-Regular.ttf");
+}
+
+body {
+    font-size: 20px;
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+ul{
+    list-style: none;
+    width: 80%;
+}
+li{
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+li:hover{
+    background: #222;
+    cursor: pointer;
+}
+li:active{
+    opacity: 0.7;
+}
+aside {
+    flex-direction: column;
+    background: #12130f;
+    color: #fff;
+    overflow-y: auto;
+}
+
+aside,
+section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    transition: 0.3s all;
+    color: #fff;
+    background: #7E78D2;
+}
+section:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+section:active {
+    opacity: 0.7;
+}
